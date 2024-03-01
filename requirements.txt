@@ -1,0 +1,8 @@
+python-dotenv
+ollama
+haystack-ai
+datasets>=2.6.1
+sentence-transformers>=2.2.0
+ollama-haystack
+pgvector-haystack
+pypdf
