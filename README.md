@@ -14,6 +14,7 @@ Welcome to our educational repository, where we explore the integration of `pgve
 - **03_pgvector_retriever_pipeline**: Demonstrates the process of using `haystack` and `PgvectorEmbeddingRetriever` to run queries on a PostgreSQL database and connect everything in a pipeline.
 - **04_pgvector_ollama_embedder**: Demonstrates the process of using `haystack` and `ollama` embedding api to generate vector representations.
 - **05_pgvector_ollama_embedder_pipeline**: Demonstrates the process of using `haystack` and `ollama` embedding api to generate vector representations and connect everything in a pipeline with various document cleanups and pdf file load.
+- **06_pgvector_ollama_complete_process_pdf_embedding_query_generator**: Demonstrates the process of using `haystack`, `ollama`, `pypdf` to clean a pdf file. Embedd the context into a PostgreSQL database. Then it uses a `ollama` pipeline to run a query against `pgvector` and generate a LLM response.
 
 ## Docker Compose Setup
 
